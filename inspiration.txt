@@ -1,0 +1,10 @@
+https://www.skinome.com/en
+https://www.fruitful.com/
+color1 = edede9
+color2 = d6ccc2
+color3 = f5ebe0
+color4 = e3d5ca
+color5 = d5bdaf
+
+
+api correo argentino https://rapidapi.com/brunoaramburu/api/correo-argentino1/playground/apiendpoint_eff0df8a-fc4a-4b70-9ecb-4310829c8318
