@@ -144,7 +144,7 @@ export const About = () => {
 
       <div className="w-full md:w-5/6 lg:w-1/2 2xl:w-1/3 relative aspect-square">
         <Image
-          src="/profile.jpeg"
+          src="/img/profile"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1024px) 83vw, (max-width: 1536px) 50vw, 33vw"
           style={{

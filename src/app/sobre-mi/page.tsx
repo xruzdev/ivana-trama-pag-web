@@ -8,7 +8,7 @@ export const metadata = {
   alternates: { canonical: "/sobre-mi" },
 };
 
-const pics = ["https://res.cloudinary.com/dqbpjov4y/image/upload/v1744479666/IMG_8804_mh8u7o.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744479665/IMG_2474_phbb8y.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744479664/IMG_8803_zzuhfp.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744468935/IMG_8813-min_lhilzb.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744575039/IMG_2515_fgkn6h.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744575039/IMG_2528_vcbzfi.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744575037/IMG_2492_qjjp32.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744575037/IMG_2491_qqupou.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744575036/IMG_2525_ucs9hx.jpg"]
+const pics = ["/img/img-8804","/img/img-2474","/img/img-8803","/img/img-8813","/img/img-2515","/img/img-2528","/img/img-2492","/img/img-2491","/img/img-2525"]
 
 export default function AboutPage() {
   return (
@@ -18,7 +18,7 @@ export default function AboutPage() {
     >
       <div className="w-full relative h-[60vh] md:h-[50vh] lg:h-[60vh] xl:h-[60vh] ">
         <Image
-          src="https://res.cloudinary.com/dqbpjov4y/image/upload/v1744567825/IMG_2577_qf6uke.jpg"
+          src="/img/img-2577"
           fill
           sizes="100vw"
           priority

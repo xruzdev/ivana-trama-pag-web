@@ -4,11 +4,11 @@ import { Treatment } from "@/interfaces";
 export const tratamientos = {
   faciales: {
     title: "Tratamientos Faciales",
-    hero: "/tratamiento-facial.jpg",
+    hero: "/img/tratamiento-facial",
   },
   capilares: {
     title: "Tratamientos Capilares",
-    hero: "/tratamiento-capilar.jpg",
+    hero: "/img/tratamiento-capilar",
     content: [
       {
         title: "Microneedling",
@@ -29,7 +29,7 @@ export const treatments: {
 } = {
   "tratamientos-faciales": {
     title: "Tratamientos Faciales",
-    hero: "/tratamiento-facial.jpg",
+    hero: "/img/tratamiento-facial",
     slug: "tratamientos-faciales",
     treatments: [
       {
@@ -51,7 +51,7 @@ export const treatments: {
               "Evitar el consumo de alcohol y antiinflamatorios antes del tratamiento.",
             afterCare: "Evitar exposición solar y maquillaje durante 12 horas.",
             duration: "3 a 6 meses",
-            src: "https://res.cloudinary.com/dqbpjov4y/image/upload/v1744570674/IMG_2616_ontp58.jpg",
+            src: "/img/img-2616",
           },
           {
             title: "Bruxismo",
@@ -67,7 +67,7 @@ export const treatments: {
               "Evitar consumo de alcohol y medicamentos anticoagulantes.",
             afterCare: "No realizar ejercicio las primeras 12 horas.",
             duration: "4 a 6 meses",
-            src: "https://res.cloudinary.com/dqbpjov4y/image/upload/v1744571000/IMG_2624_pbvmom.jpg",
+            src: "/img/img-2624",
           },
           {
             title: "Hiperhidrosis",
@@ -82,7 +82,7 @@ export const treatments: {
             afterCare:
               "Evitar ejercicio intenso y baños calientes durante 24 horas.",
             duration: "9 a 12 meses",
-            src: "https://res.cloudinary.com/dqbpjov4y/image/upload/v1744570674/IMG_2616_ontp58.jpg",
+            src: "/img/img-2616",
           },
           {
             title: "Nefertiti",
@@ -98,7 +98,7 @@ export const treatments: {
             afterCare:
               "Evitar masajes o presión en la zona tratada por 24 horas.",
             duration: "4 a 6 meses",
-            src: "https://res.cloudinary.com/dqbpjov4y/image/upload/v1744571416/IMG_2629_azldlv.jpg",
+            src: "/img/img-2629",
           },
         ],
       },
@@ -196,7 +196,7 @@ export const treatments: {
               "Evitar ejercicio físico y antiinflamatorios. Aplicar protección solar SPF 50+ durante dos semanas.",
             duration: "12 a 18 meses",
             reel: "https://www.instagram.com/reel/DDExsk8Ia2_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-            src: "https://res.cloudinary.com/dqbpjov4y/image/upload/v1744571704/IMG_2876_zokcwl.jpg",
+            src: "/img/img-2876",
           },
           {
             title: "Sculptra",
@@ -315,7 +315,7 @@ export const treatments: {
   },
   "tratamientos-capilares": {
     title: "Tratamientos Capilares",
-    hero: "/tratamiento-capilar.jpg",
+    hero: "/img/tratamiento-capilar",
     slug: "tratamientos-capilares",
     subTreatments: [
       {
@@ -388,7 +388,7 @@ export const treatments: {
         preCare: "Evitar alcohol y antiinflamatorios antes del tratamiento.",
         afterCare: "Evitar exposición solar y lavado del cabello por 24 horas.",
         duration: "No especificado.",
-        src: "https://res.cloudinary.com/dqbpjov4y/image/upload/v1744570214/IMG_2985_bapky6.jpg",
+        src: "/img/img-2985",
       },
       {
         title: "Bloqueo de Dutasteride",

@@ -43,7 +43,7 @@ export const LogoFlex = () => {
       className={`flex items-center font-bold gap-4 text-white group  border border-white/10 py-3 px-4 roundsed ${oswald.className}`}
     >
       <Image
-        src="/logoflex.webp"
+        src="/img/logoflex"
         width={36}
         height={36}
         alt="Flex MKT Agency Logo"

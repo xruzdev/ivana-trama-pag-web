@@ -118,11 +118,7 @@ export const Tratamientos = () => {
       </div>
 
       <video
-       /*   style={{
-          clipPath: "polygon(0% 0%, 50% 0%, 75% 100%, 0% 100%)",
-        }}  */
-        src="https://res.cloudinary.com/dqbpjov4y/video/upload/f_auto:video,q_auto,vc_auto,w_1280/v1734873095/Sin_T%C3%ADtulo_33_q8gnew.mp4"
-        poster="https://res.cloudinary.com/dqbpjov4y/video/upload/f_auto,q_auto,w_1280,so_0/v1734873095/Sin_T%C3%ADtulo_33_q8gnew.jpg"
+        poster="/video/banner-tratamientos.poster.webp"
         autoPlay
         loop
         muted
@@ -130,7 +126,10 @@ export const Tratamientos = () => {
         preload="none"
         aria-hidden="true"
         className="    brightness-50 absolute top-0 left-0 size-full object-cover z-0"
-      />
+      >
+        <source src="/video/banner-tratamientos.av1.mp4" type='video/mp4; codecs="av01.0.08M.08"' />
+        <source src="/video/banner-tratamientos.mp4" type="video/mp4" />
+      </video>
     </section>
   );
 };

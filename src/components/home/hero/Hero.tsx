@@ -111,8 +111,7 @@ export const Hero = () => {
           className="aspect-square w-screen md:w-[75vw] lg:w-1/2 relative flex items-center bg-color1 justify-center opacity-0   overflow-hidden"
         >
            <video
-            src="https://res.cloudinary.com/dqbpjov4y/video/upload/f_auto:video,q_auto,vc_auto,w_800/v1734734984/Bg-Quad_d0hc5g.mp4"
-            poster="https://res.cloudinary.com/dqbpjov4y/video/upload/f_auto,q_auto,w_800,so_0/v1734734984/Bg-Quad_d0hc5g.jpg"
+            poster="/video/hero.poster.webp"
             loop
             autoPlay
             muted
@@ -120,7 +119,10 @@ export const Hero = () => {
             preload="metadata"
             aria-hidden="true"
             className=" p-5 md:p-10 lg:p-5 w-full object-contain absolute top-0 left-0 -z-10 brightness-90"
-          ></video>
+          >
+            <source src="/video/hero.av1.mp4" type='video/mp4; codecs="av01.0.08M.08"' />
+            <source src="/video/hero.mp4" type="video/mp4" />
+          </video>
           <svg
             preserveAspectRatio="xMidYMid slice"
             viewBox="0 0 1200 1200"

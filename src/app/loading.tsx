@@ -7,7 +7,7 @@ export default function Loading() {
 
       <div className="animate-fade relative w-14 md:w-24 aspect-square">
 
-    <Image src="/logo-2.png" fill sizes="96px" alt="Cargando" className="animate-rotate-x animate-iteration-infinite" />
+    <Image src="/img/logo-2" fill sizes="96px" alt="Cargando" className="animate-rotate-x animate-iteration-infinite" />
 
       </div>
     </div>

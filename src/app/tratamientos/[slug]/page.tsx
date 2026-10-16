@@ -112,7 +112,7 @@ export default function TretmentsKind({
                 <div className="flex flex-col lg:flex-row w-full gap-5 lg:gap-0  justify-evenly">
                   <div className=" w-full lg:w-1/5  aspect-video  lg:aspect-[9/11 relative">
 
-                  <Image src={t.src!=="" ? t.src : "/tratamiento-item.jpg"} alt={t.title ?? ""} fill sizes="(max-width: 1024px) 100vw, 20vw" loading="lazy" className="object-cover object-center" />
+                  <Image src={t.src!=="" ? t.src : "/img/tratamiento-item"} alt={t.title ?? ""} fill sizes="(max-width: 1024px) 100vw, 20vw" loading="lazy" className="object-cover object-center" />
                   </div>
 
                   <ol className=" w-full lg:w-3/5 h-full flex flex-col gap-5 lg:gap-2">

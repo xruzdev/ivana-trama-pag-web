@@ -10,7 +10,7 @@ export const links = [
   {
     title: "Tratamientos",
     href: "/tratamientos",
-    src:"https://res.cloudinary.com/dqbpjov4y/image/upload/v1744567696/IMG_2714_h4unee.jpg",
+    src:"/img/img-2714",
     subLinks: [
       {
         title: "Tratamientos Capilares",

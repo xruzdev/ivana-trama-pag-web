@@ -13,7 +13,7 @@ export default function TretmentsAll() {
     <section className="w-screen   flex flex-col  items-start justify-start gap-5  ">
       <div className="w-full relative h-[60vh] md:h-[50vh] lg:h-[60vh] xl:h-[60vh] ">
         <Image
-          src="/tratamiento.jpg"
+          src="/img/tratamiento"
           fill
           sizes="100vw"
           priority
@@ -33,7 +33,7 @@ export default function TretmentsAll() {
 
           <div className="aspect-[12/4] w-full bg-black relative">
             <Image
-              src="https://res.cloudinary.com/dqbpjov4y/image/upload/v1744567696/IMG_2714_h4unee.jpg"
+              src="/img/img-2714"
               fill
               sizes="(max-width: 1024px) 100vw, 45vw"
               className="object-cover object-center"
@@ -75,7 +75,7 @@ export default function TretmentsAll() {
 
           <div className="aspect-[12/4] w-full bg-black relative">
             <Image
-              src="https://res.cloudinary.com/dqbpjov4y/image/upload/v1744567158/IMG_2978_gz9bl4.jpg"
+              src="/img/img-2978"
               fill
               sizes="(max-width: 1024px) 100vw, 45vw"
               className="object-cover object-top"

@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     images: [
       {
-        url: "https://res.cloudinary.com/dqbpjov4y/image/upload/v1734729675/opengraphimage_n6xzkb.jpg",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Ivana Trama",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     description:
       "Página oficial de Ivana Trama, dermatóloga en Bahía Blanca, especializada en el cuidado de la piel y tratamientos dermatológicos avanzados.",
     images: [
-      "https://res.cloudinary.com/dqbpjov4y/image/upload/v1734729675/opengraphimage_n6xzkb.jpg",
+      "/og-image.jpg",
     ],
   },
 };
@@ -90,7 +90,6 @@ export default function RootLayout({
   return (
     <html lang="es-AR">
       <head>
-        <link rel="preconnect" href="https://res.cloudinary.com" />
         <link rel="preconnect" href="https://use.typekit.net" crossOrigin="" />
         <link rel="preconnect" href="https://p.typekit.net" crossOrigin="" />
         <JsonLd />

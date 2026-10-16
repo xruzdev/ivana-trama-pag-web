@@ -68,7 +68,7 @@ export const Contact = () => {
       >
         
 
-        <Carousel images={["https://res.cloudinary.com/dqbpjov4y/image/upload/v1744468935/IMG_8813-min_lhilzb.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744479666/IMG_8804_mh8u7o.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744479665/IMG_2474_phbb8y.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744479664/IMG_8803_zzuhfp.jpg","https://res.cloudinary.com/dqbpjov4y/image/upload/v1744479664/IMG_2854_dsaopm.jpg"]}/>
+        <Carousel images={["/img/img-8813","/img/img-8804","/img/img-2474","/img/img-8803","/img/img-2854"]}/>
       </div>
 
       <div className=" flex flex-col  gap-4 lg:gap-10 xl:gap-14 items-start justify-center  ">

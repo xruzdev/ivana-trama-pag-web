@@ -12,7 +12,7 @@ export const Footer = () => {
           className="logo text-color1 text-3xl md:text-4xl  flex mx-auto relative w-4/5 md:w-2/5 aspect-video "
         >
           <Image
-            src="https://res.cloudinary.com/dqbpjov4y/image/upload/v1736450556/logo_calado_blanco_kvhe2p.png"
+            src="/img/logo-calado-blanco"
             fill
             sizes="(max-width: 768px) 80vw, 40vw"
             className="object-contain"
@@ -28,7 +28,7 @@ export const Footer = () => {
             className="logo text-color1 text-3xl md:text-4xl  flex mx-auto relative  w-3/5 aspect-video "
           >
             <Image
-              src="https://res.cloudinary.com/dqbpjov4y/image/upload/v1736450556/logo_calado_blanco_kvhe2p.png"
+              src="/img/logo-calado-blanco"
               fill
               sizes="(max-width: 1024px) 0px, 15vw"
               className="object-contain"

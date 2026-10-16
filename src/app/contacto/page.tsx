@@ -18,7 +18,7 @@ export default function NamePage() {
        <div className="w-full relative h-[60vh] md:h-[50vh] lg:h-[60vh] xl:h-[60vh] ">
       
               <Image
-                src="https://res.cloudinary.com/dqbpjov4y/image/upload/v1744572072/IMG_2846_pzkqdv.jpg"
+                src="/img/img-2846"
                 fill
                 sizes="100vw"
                 priority

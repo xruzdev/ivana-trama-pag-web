@@ -68,7 +68,7 @@ export const NavBar = () => {
             className="logo text-color5 text-3xl md:text-4xl aspect-square w-16 flex relative "
           >
             <Image
-              src="/logo-2.png"
+              src="/img/logo-2"
               fill
               sizes="64px"
               priority

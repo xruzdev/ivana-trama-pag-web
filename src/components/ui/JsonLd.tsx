@@ -7,8 +7,8 @@ const schema = {
   name: "Dra. Ivana Trama - Dermatología Clínica y Estética",
   url: SITE_URL,
   image:
-    "https://res.cloudinary.com/dqbpjov4y/image/upload/v1734729675/opengraphimage_n6xzkb.jpg",
-  logo: "https://res.cloudinary.com/dqbpjov4y/image/upload/v1736450556/logo_calado_blanco_kvhe2p.png",
+    `${SITE_URL}/og-image.jpg`,
+  logo: `${SITE_URL}/logo.png`,
   description:
     "Consultorio de la Dra. Ivana Trama, médica especialista en dermatología clínica y estética en Bahía Blanca. Tratamientos faciales, capilares y estética médica.",
   telephone: "+5492914230173",
